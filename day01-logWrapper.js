@@ -1,4 +1,5 @@
 // day01-logWrapper.js
+
 export function logWrapper(fn) {
   return function (...args) {
     console.log(`Calling ${fn.name} with:`, args);
