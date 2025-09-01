@@ -2,8 +2,28 @@
 
 This is my personal **100 Days of Code** challenge focused on building one **JavaScript function wrapper** every day.
 
-A *function wrapper* is a higher-order function that takes another function and adds extra behavior — like logging, validation, error handling, or performance optimization — without changing the original function's code.
+A _function wrapper_ is a higher-order function that takes another function and adds extra behavior — like logging, validation, error handling, or performance optimization — without changing the original function's code.
 
 Over these 100 days, I'll start with **beginner-friendly** wrappers (like logging) and gradually progress to **advanced** ones (like caching, retries, throttling, and API helpers).
 
 ---
+
+## 📆 Daily Wrappers
+
+| Day | Wrapper            | Description                                 |
+| --- | ------------------ | ------------------------------------------- |
+| 1   | `logWrapper`       | Logs function arguments & results           |
+| 2   | `emojiLogWrapper`  | Logs with emojis for fun                    |
+| 3   | `onceWrapper`      | Allows a function to run only once          |
+| 4   | `callCountWrapper` | Tracks number of calls                      |
+| 5   | `nonEmptyWrapper`  | Prevents empty arguments                    |
+| 6   | `typeCheckWrapper` | Checks argument types before running        |
+| 7   | `traceWrapper`     | Prints function call stack                  |
+| 8   | `errorCatcher`     | Catches and logs errors without crashing    |
+| 9   | `timeWrapper`      | Measures execution time                     |
+| 10  | `retryWrapper`     | Retries a function if it fails              |
+| 11  | `timeoutWrapper`   | Cancels execution if too slow               |
+| 12  | `cacheWrapper`     | Memoizes results for faster re-use          |
+| 13  | `debounceWrapper`  | Delays execution until no more calls happen |
+| 14  | `throttleWrapper`  | Limits how often a function runs            |
+| 15  | `loadingWrapper`   | Shows loading before/after async calls      |
