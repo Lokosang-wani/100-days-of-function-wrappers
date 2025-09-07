@@ -9,7 +9,7 @@ export function spyWrapper(fn) {
   return wrapped;
 }
 
-// Example usage:
+// Example case usage:
 function add(a, b) {
   return a + b;
 }
